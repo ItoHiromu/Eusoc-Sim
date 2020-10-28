@@ -26,6 +26,13 @@ Termites.java:
 
 ## Demo
 ### Instructions to run the simulation
-* To run the simulation, 
-
-
+* To compile, enter the command below at the command prompt, 
+  '''bash
+  $ javac Main.java
+  '''
+  then we get 5 class files i.e.,  Main.class, Main$RESULTS_LIST.class, Child.class, Queen.class amd Termites.class.
+* To run the simulation, enter the command below at the command prompt,
+  '''bash
+  $ Java Main
+  '''
+  then we get 8 csv files i.e., 
