@@ -36,6 +36,7 @@ Termites.java:
   $ Java Main
   ```
   then we get 8 csv files i.e., 
+### Example output on console
 * Output on console is displayed as below,
 (Major parameter set is F0=10; β=0.6; T=13; ε=0.2)
   ```bash
