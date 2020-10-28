@@ -51,7 +51,7 @@ Termites.java:
   When CASE is displayed as "1", it means that the simulation reach to eusociality.
   Note that, if colony fitness does not decrease from the previous generation, the simulation continues up to 200 generations.
   
-  * [Example 2] Output on console is displayed as below,
+ * [Example 2] Output on console is displayed as below,
 (Major parameter set is F0=10; β=0.1; T=13; ε=0.2)
   ```bash
   $ Java Main
