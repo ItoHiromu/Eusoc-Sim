@@ -41,7 +41,7 @@ Termites.java:
 (Major parameter set is F0=10; β=0.6; T=13; ε=0.2)
   ```bash
   $ Java Main
-  F0: 10, Colony lifespan (T): 13 START 
+  F0:10, beta:0.6, T:13, epsilon:0.2  START 
   G:65, K:85, CASE_2:1
   G:101, K:121, CASE_1:1
   ```
@@ -55,11 +55,11 @@ Termites.java:
 (Major parameter set is F0=10; β=0.1; T=13; ε=0.2)
   ```bash
   $ Java Main
-  F0: 10, Colony lifespan (T): 13 START 
+  F0:10, beta:0.1, T:13, epsilon:0.2  START 
   G:41, K:60, CASE_2:0
   G:41, K:60, CASE_1:0
   ```
-  In this case, evolution is stopped at 41th generation when K=60 because of decrease in colony fitness.
+  In this case, evolution is stopped at 41th generation when K=60 because of decrease in colony fitness due to small beta (work performance of helper).
   Therefore, CASE_1 and CASE_2 are both 0 (did not reach to eusociality).
   Note that, even if evolution is stopped, 
   
