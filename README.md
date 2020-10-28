@@ -36,3 +36,17 @@ Termites.java:
   $ Java Main
   ```
   then we get 8 csv files i.e., 
+* Output on console is displayed as below,
+(Major parameter set is F0=10; β=0.6; T=13; ε=0.2)
+  ```bash
+  $ Java Main
+  F0: 10, Colony lifespan (T): 13 START 
+  G: 65, K:85, CASE_2:1
+  G: 101, K:121, CASE_1:1
+  ```
+  This means that, the direct fitness of the first brood becomes zero in the 65th generation when K=85, and the first brood become whole life helper in the 101th generation when K=121.
+  In CASE_2, evolvability to eusociality is judged by the direct fitness of the first brood.
+  In CASE_1, evolvability to eusociality is judged by the appearance whole life helper.
+  When CASE is displayed as "1", it means that the simulation reach to eusociality.
+  Note that, if colony fitness does not decrease from the previous generation, the simulation continues up to 200 generations.
+  
