@@ -14,7 +14,7 @@ Termites.java:
 ### Required software
 * OS Windows 10 
 * The main codes of the simulations were implemented in Java, Java version "12.0.1" and Java (TM) SE Runtime Environment 12
-* For running of simulations, JDK(Java SE Development Kit) is needs to be installed (https://www.oracle.com/jp/java/technologies/javase-downloads.html).
+* For running of simulations, JDK (Java SE Development Kit) is needs to be installed (https://www.oracle.com/jp/java/technologies/javase-downloads.html).
 * For compiling, path setting is needed (https://docs.oracle.com/javase/tutorial/essential/environment/paths.html).
 
 ### Versions the software has been tested on
