@@ -5,10 +5,10 @@ This simulation demonstrates the life cycle  of colony of ancestor termite.
 ## Main files
 
 Main.java: Main file of the simulation.
+Termites.java: Abstract class and basic parameters of ancestor termite.
+Queen.java: Parameter definition class for queen (colony) derived from termites.java.
+Child.java: Parameter definition class for offsprings derived from termites.java.
 
-Queen.java: 
-Child.java: 
-Termites.java:
 
 ## System requirements
 ### Required software
@@ -21,8 +21,6 @@ Termites.java:
 * OS: Windows 10 Pro Ver.1903
 * CPU: Intel Core i9-7900X CPU 3.30GHz
 
-### Installation guide
-* Instructions: Download
 
 ## Demo
 ### Instructions to run the simulation
@@ -35,7 +33,12 @@ Termites.java:
   ```bash
   $ Java Main
   ```
-  then we get 8 csv files i.e., 
+  then we get 8 csv files as below,
+  1) 
+  2)
+  
+  
+  
 ### Example output on console
 * [Example 1] Output on console is displayed as below,
 (Major parameter set is F0=10; β=0.6; T=13; ε=0.2)
