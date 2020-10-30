@@ -56,8 +56,9 @@ This simulation demonstrates the life cycle  of colony of ancestor termite.
  7. Generation_phase_DF.csv  
  Generation when evolution has stopped or evolved to eusociality (direct fitness standard).
  8. InclusiveFit.csv  
- Inclusive fitness of first brood.
-
+ Inclusive fitness of first brood.    
+ 
+ The current simulation, 
   
 ### Example output on console
 * [Example 1] Output on console is displayed as below,
@@ -84,5 +85,7 @@ This simulation demonstrates the life cycle  of colony of ancestor termite.
    ```
    In this case, evolution is stopped at 41th generation when K=60 because of decrease in colony fitness due to small beta (work performance of helper).
    Therefore, CASE_1 and CASE_2 are both 0 (did not reach to eusociality).
-   Note that, even if evolution is stopped, 
+   In the program, the simulation is set to run 200 generations.
+   It will stop when the number of alates at the current generation decreases from that at the previous generation, because selection does not promote the reduction in fitness. 
+   Please note that the natural selection should stop at the previous generation, but not the current generation that should not happen.
   
