@@ -42,8 +42,10 @@ This simulation demonstrates the life cycle  of colony of ancestor termite.
   then we get 8 csv files as below,
  1. All_data.csv  
  All data on yearly colony status.   
- 2. Colony output of each generation such as, Fig.4 b-d.
- 3. Evolvability of eusociality for phase-plane creation (whole life helper standard).
+ 2. Generation_dynamics.csv  
+ Colony output of each generation such as, Fig.4 b-d.  
+ 3. Evolvability_phase_WLH.csv  
+ Evolvability of eusociality for phase-plane creation (whole life helper standard).  
  4. Generation when evolution has stopped or evolved to eusociality (whole life helper standard).
  5. Final (maximum) implinting level
  6. Evolvability of eusociality for phase-plane creation such as, Fig. 4a (direct fitness standard).
