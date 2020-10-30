@@ -40,8 +40,8 @@ This simulation demonstrates the life cycle  of colony of ancestor termite.
   $ Java Main
   ```
   then we get 8 csv files as below,
- 1. All_data.csv ()
- All data on yearly colony status. 
+ 1. All_data.csv  
+ All data on yearly colony status.   
  2. Colony output of each generation such as, Fig.4 b-d.
  3. Evolvability of eusociality for phase-plane creation (whole life helper standard).
  4. Generation when evolution has stopped or evolved to eusociality (whole life helper standard).
