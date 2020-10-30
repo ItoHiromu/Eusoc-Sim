@@ -60,8 +60,6 @@ This simulation demonstrates the life cycle  of colony of ancestor termite.
  8. InclusiveFit.csv  
  Inclusive fitness of first brood.      
  
- Note that, the current files are build to verify evolvability of eusociality in the specified parameter set. 
- Therefore, this Main.java does not create a phase-plane.
   
 ### Example output on console
 * [Example 1] Output on console is displayed as below,
