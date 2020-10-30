@@ -21,6 +21,8 @@ This simulation demonstrates the life cycle  of colony of ancestor termite.
 * OS: Windows 10 Pro Ver.1903
 * CPU: Intel Core i9-7900X CPU 3.30GHz
 
+## Installation guide
+* Instructions: Download Main.java, Termites.java, Queen.java and Child.java and save all files in the same directory.
 
 ## Demo
 ### Instructions to run the simulation
@@ -56,9 +58,10 @@ This simulation demonstrates the life cycle  of colony of ancestor termite.
  7. Generation_phase_DF.csv  
  Generation when evolution has stopped or evolved to eusociality (direct fitness standard).
  8. InclusiveFit.csv  
- Inclusive fitness of first brood.    
+ Inclusive fitness of first brood.      
  
- The current simulation, 
+ Note that, the current files are build to verify evolvability of eusociality in the specified parameter set. 
+ Therefore, this Main.java does not create a phase-plane.
   
 ### Example output on console
 * [Example 1] Output on console is displayed as below,
