@@ -39,7 +39,8 @@ This simulation demonstrates the life cycle  of colony of ancestor termite.
   ```bash
   $ Java Main
   ```
-  then we get 8 csv files as below,
+### Output files
+ After run simulation, we get 8 csv files as below,
  1. All_data.csv  
  All data on yearly colony status.   
  2. Generation_dynamics.csv  
