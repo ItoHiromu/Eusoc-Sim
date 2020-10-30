@@ -47,11 +47,16 @@ This simulation demonstrates the life cycle  of colony of ancestor termite.
  Colony output of each generation such as, Fig.4 b-d.  
  3. Evolvability_phase_WLH.csv  
  Evolvability of eusociality for phase-plane creation (whole life helper standard).  
- 4. Generation when evolution has stopped or evolved to eusociality (whole life helper standard).
- 5. Final (maximum) implinting level
- 6. Evolvability of eusociality for phase-plane creation such as, Fig. 4a (direct fitness standard).
- 7. Generation when evolution has stopped or evolved to eusociality (direct fitness standard).
- 8. Inclusive fitness of first brood
+ 4. Generation_phase_WLH.csv  
+ Generation when evolution has stopped or evolved to eusociality (whole life helper standard).  
+ 5. Imp_Level.csv  
+ Final (maximum) implinting level.  
+ 6. Evolvability_phase_DF.csv  
+ Evolvability of eusociality for phase-plane creation such as, Fig. 4a (direct fitness standard).
+ 7. Generation_phase_DF.csv  
+ Generation when evolution has stopped or evolved to eusociality (direct fitness standard).
+ 8. InclusiveFit.csv  
+ Inclusive fitness of first brood.
 
   
 ### Example output on console
