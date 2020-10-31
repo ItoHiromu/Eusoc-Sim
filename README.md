@@ -1,6 +1,6 @@
 # Eusoc-Sim
-Set of programs for evolution simulation of eusociality drived by genomic imprinting.
-This simulation demonstrates the life cycle  of colony of ancestor termite.
+Set of programs for evolution simulation of eusociality drived by genomic imprinting.  
+This simulation simulates the colony life cycle of termite ancestor.
 
 ## Main files
 
@@ -42,7 +42,7 @@ This simulation demonstrates the life cycle  of colony of ancestor termite.
   $ Java Main
   ```
 ### Output files
- After run simulation, we get 8 csv files as below,
+ After simulation run, we get 8 csv files as below,
  1. All_data.csv  
  All data on yearly colony status.   
  2. Generation_dynamics.csv  
@@ -70,11 +70,11 @@ This simulation demonstrates the life cycle  of colony of ancestor termite.
   G:65, K:85, CASE_2:1
   G:101, K:121, CASE_1:1
   ```
-  This means that, the direct fitness of the first brood becomes zero in the 65th generation when K=85, and the first brood become whole life helper in the 101th generation when K=121.
-  In CASE_2, evolvability to eusociality is judged by the direct fitness of the first brood.
-  In CASE_1, evolvability to eusociality is judged by the appearance whole life helper.
+  This means that, the direct fitness of the first brood becomes zero in the 65th generation when K=85, and the first brood become whole life helper in the 101st generation when K=121.
+  In CASE_2, evolvability to eusociality is judged by the direct fitness of the first brood (=0).
+  In CASE_1, evolvability to eusociality is judged by the appearance of whole life helper.
   When CASE is displayed as "1", it means that the simulation reach to eusociality.
-  Note that, if colony fitness does not decrease from the previous generation, the simulation continues up to 200 generations.
+  Note that, if colony fitness does not decrease from the previous generation, the simulation continues to run up to 200 generations.
   
  * [Example 2] Output on console is displayed as below,
 (Major parameter set is F0=10; β=0.1; T=13; ε=0.2)
