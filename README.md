@@ -52,7 +52,7 @@ This simulation simulates the colony life cycle of termite ancestor.
  4. Generation_phase_WLH.csv  
  Generation when evolution has stopped or evolved to eusociality (whole life helper standard).  
  5. Imp_Level.csv  
- Final (maximum) implinting level.  
+ Final (maximum) imprinting level.  
  6. Evolvability_phase_DF.csv  
  Evolvability of eusociality for phase-plane creation such as, Fig. 4a (direct fitness standard).
  7. Generation_phase_DF.csv  
